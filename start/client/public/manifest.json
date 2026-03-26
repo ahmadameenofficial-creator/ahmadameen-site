@@ -1,0 +1,98 @@
+{
+  "name": "ابدأ تصميم - أداة احترافية لتوليد بريفات التصميم",
+  "short_name": "ابدأ تصميم",
+  "description": "أداة ذكية لتوليد بريفات تصميم احترافية وواقعية. احصل على تقييم من مصمم بخبرة 11+ سنة",
+  "start_url": "https://start.ahmadameen.space/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1a1a1a",
+  "background_color": "#ffffff",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["productivity", "design"],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "توليد بريف جديد",
+      "short_name": "بريف جديد",
+      "description": "ابدأ في توليد بريف تصميم جديد",
+      "url": "/?action=new-brief",
+      "icons": [
+        {
+          "src": "/shortcut-brief.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "خدمة التقييم",
+      "short_name": "تقييم",
+      "description": "اطلب تقييم لتصميمك",
+      "url": "/?action=review",
+      "icons": [
+        {
+          "src": "/shortcut-review.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "design",
+          "accept": ["image/*", "application/pdf"]
+        }
+      ]
+    }
+  }
+}
