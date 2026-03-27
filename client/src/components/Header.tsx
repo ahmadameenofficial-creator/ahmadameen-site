@@ -7,7 +7,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-amber-500 to-amber-600 shadow-lg shadow-amber-500/30">
-          <img src="/logo.svg" alt="Logo" className="h-6 w-6 text-black" /></div>
+          <img src="/favicon.svg" alt="Logo" className="h-6 w-6 text-black" /></div>
           <div className="flex flex-col">
             <span className="text-lg font-bold text-white">ابدأ تصميم</span>
             <span className="text-xs text-amber-500/80 font-semibold">من خلال بريف واضح</span>
